@@ -4,8 +4,8 @@ export default function InicioSecretaria() {
 
     const navigate = useNavigate();
 
-    const CadastroOnibus = () => {
-        navigate('/secretaria/cadastro/onibus')
+    const VerOnibus = () => {
+        navigate('/secretaria/onibus')
     }
     const CadastroIngressos = () => {
         navigate('/secretaria/cadastro/ingressos')
@@ -25,8 +25,8 @@ export default function InicioSecretaria() {
             <button onClick={CadastroCoordenadores}>Ver Coordenadores</button>
           </div>
           <div className="CRUD">
-            <h3>Cadastro Onibus</h3>
-            <button onClick={CadastroOnibus}> Ver Onibus</button>
+            <h3>Onibus</h3>
+            <button onClick={VerOnibus}> Ver Onibus</button>
           </div>
           <div className="CRUD">
             <h3>Ingresso</h3>
